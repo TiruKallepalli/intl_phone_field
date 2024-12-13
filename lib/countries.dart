@@ -30,8 +30,8 @@ const List<Country> countries = [
     flag: "🇦🇫",
     code: "AF",
     dialCode: "93",
-    minLength: 9,
-    maxLength: 9,
+    minLength: 13,
+    maxLength: 13,
   ),
   Country(
     name: "Åland Islands",
@@ -7191,8 +7191,8 @@ const List<Country> countries = [
     flag: "🇺🇸",
     code: "US",
     dialCode: "1",
-    minLength: 10,
-    maxLength: 10,
+    minLength: 14,
+    maxLength: 14,
   ),
   Country(
     name: "Uruguay",
