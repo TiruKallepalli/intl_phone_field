@@ -128,16 +128,16 @@ class _CountryPickerDialogState extends State<CountryPickerDialog> {
                             )
                           : Text(
                               _filteredCountries[index].flag,
-                              style: const TextStyle(fontSize: 18),
+                              style: const TextStyle(fontSize: 18,color: Colors.black),
                             ),
                       contentPadding: widget.style?.listTilePadding,
                       title: Text(
                         _filteredCountries[index].localizedName(widget.languageCode),
-                        style: widget.style?.countryNameStyle ?? const TextStyle(fontWeight: FontWeight.w700),
+                        style: widget.style?.countryNameStyle ?? const TextStyle(fontWeight: FontWeight.w700,color: Colors.black),
                       ),
                       trailing: Text(
                         '+${_filteredCountries[index].dialCode}',
-                        style: widget.style?.countryCodeStyle ?? const TextStyle(fontWeight: FontWeight.w700),
+                        style: widget.style?.countryCodeStyle ?? const TextStyle(fontWeight: FontWeight.w700,color: Colors.black),
                       ),
                       onTap: () {
                         _selectedCountry = _filteredCountries[index];
